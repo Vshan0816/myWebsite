@@ -1,3 +1,3 @@
-const h2 = document.createElement('h2');
-h2.textContent = "This content added by JavaScript"; 
-document.querySelector('body').appendChild(h2); 
+function rotateImg() {
+    document.querySelector("#infernoDivider").style.transform = "rotate(90deg)";
+  }

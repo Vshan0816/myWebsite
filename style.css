@@ -1,3 +1,65 @@
-body {
-    
-  } 
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+#main-header{
+	background-color:coral;
+	color:#fff;
+}
+#navbar{
+    float:left;
+	width:100%;
+    padding:15px;
+	box-sizing: border-box;
+	background-color:#333;
+	color:#fff;
+    text-align: center;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+.blazblue{
+	float:left;
+	width:50%;
+	padding:10px;
+	box-sizing:border-box;
+}
+.guiltyGear{
+    float:left;
+	width:50%;
+	padding:10px;
+	box-sizing:border-box;
+}
+.streetFighterV{
+    float:left;
+	width: 33%;
+	padding:10px;
+	box-sizing:border-box;
+}
+.valorant{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}
